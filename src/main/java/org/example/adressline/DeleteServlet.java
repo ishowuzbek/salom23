@@ -18,5 +18,8 @@ public class DeleteServlet extends HttpServlet {
 
         resp.sendRedirect("/countries");
         System.out.println("salom");
+        System.out.println("salom");
+        System.out.println("salom");
+        System.out.println("salom");
     }
 }
