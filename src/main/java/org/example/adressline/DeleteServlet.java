@@ -17,5 +17,6 @@ public class DeleteServlet extends HttpServlet {
             DB.COUNTRIES.removeIf(country -> country.getId() == deleteId);
 
         resp.sendRedirect("/countries");
+        System.out.println("salom");
     }
 }
